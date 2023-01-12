@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+.header {
+  display: list-item;
+  justify-content: space-between;
+  background-color: #ac3861;
+  /* align-items: baseline; */
+  height: 5%;
+}
+.head-title {
+  font-family: Lato;
+  margin: 1%;
+  background-color: transparent;
+  color: #ac3861;
+}
+.head-btn {
+  width: 100px;
+  height: 2.5rem;
+  margin: 1%;
+  background-color: dimgray;
+  border: none;
+  outline: auto;
+}
+.card-body {
+  text-align: center;
+  color: #ac3861;
+}
+.card-img-top {
+  width: 100%;
+}
+.users-space {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.main {
+  border: 2px solid #ffffff;
+}
